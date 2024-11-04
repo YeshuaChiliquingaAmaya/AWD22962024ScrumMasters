@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fondo general */
+body {
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    border-bottom: 4px solid #4caf50;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Contenedor de Login */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 2.5rem;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 100px;
+}
+
+.login-container h2 {
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.login-container label {
+    display: block;
+    text-align: left;
+    margin: 0.5rem 0 0.2rem;
+    color: #555;
+    font-weight: bold;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.3s;
+}
+
+.login-container input:focus {
+    border-color: #4caf50;
+    outline: none;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 0.75rem;
+    background: linear-gradient(135deg, #4caf50, #2e7d32);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    font-weight: bold;
+}
+
+.login-container button:hover {
+    background: linear-gradient(135deg, #2e7d32, #4caf50);
+    transform: translateY(-3px);
+}
+
+/* Inventario */
+.inventory {
+    width: 100%;
+    max-width: 1000px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.inventory h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: 700;
+    border-bottom: 3px solid #4caf50;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+/* Acordeón */
+.accordion {
+    width: 100%;
+}
+
+.accordion-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+}
+
+.accordion-item:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: #f1f1f1;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.accordion-header:hover {
+    background: #e0e0e0;
+}
+
+.accordion-header img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.product-info {
+    flex: 1;
+    text-align: left;
+}
+
+.product-info h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.product-info p {
+    font-size: 1rem;
+    color: #777;
+}
+
+.arrow {
+    font-size: 1.5rem;
+    color: #555;
+    transition: transform 0.3s;
+}
+
+.accordion-content {
+    display: none;
+    padding: 15px 20px;
+    background: #fafafa;
+    border-top: 1px solid #ddd;
+}
+
+.accordion-content p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.request-btn {
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    font-size: 1rem;
+}
+
+.request-btn:hover {
+    background: linear-gradient(135deg, #0056b3, #007bff);
+    transform: translateY(-2px);
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .accordion-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .accordion-header img {
+        margin-bottom: 10px;
+    }
+
+    .arrow {
+        align-self: flex-end;
+    }
+}
