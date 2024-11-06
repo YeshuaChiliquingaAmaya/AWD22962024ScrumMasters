@@ -1,7 +1,3 @@
-Here's a more organized and polished version of your README in English:
-
----
-
 # Welcome to the ScrumMasters Repository for ESPE2410-AWSD2296! 🎉
 
 This repository is dedicated to the **Advanced Web Development** course at **Universidad de las Fuerzas Armadas ESPE** (ESPE2410). Here, you'll find our coursework, projects, and documentation.
@@ -53,6 +49,3 @@ This project requires the following dependencies:
 
 - **1.0** - Initial release
 
----
-
-This version is more structured and formatted for clarity and readability.
