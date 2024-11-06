@@ -1,19 +1,58 @@
-# Welcome to the ScrumMasters Repository! 🎉
+Here's a more organized and polished version of your README in English:
 
-In this space, we compile all the evidence and projects developed in the **Advanced Web** course. Here, you will find our web pages, documentation of the development process, and learning resources that we utilized throughout the course.
+---
 
-## 🚀 What Can You Find Here?
+# Welcome to the ScrumMasters Repository for ESPE2410-AWSD2296! 🎉
 
-- **Web Projects**: Our creations and web applications developed during the course, including a small online supermarket project that showcases a user-friendly shopping experience.
-- **Documentation**: Evidence and reflections on our learning and development process.
-- **Resources**: Useful materials to better understand the concepts and techniques of advanced web development.
+This repository is dedicated to the **Advanced Web Development** course at **Universidad de las Fuerzas Armadas ESPE** (ESPE2410). Here, you'll find our coursework, projects, and documentation.
 
-## 👨‍💻 Team Members
+- **Homework**
+- **Workshops**
+- **Exams**
+- **Additional Documents**
 
-- Yeshua Chiliquinga
-- Alejandro Cuadrado
-- Isaac Escobar
+## 📄 Description
+This repository compiles all evidence and projects from our **Advanced Web Development** course. Inside, you’ll find our completed web projects, detailed documentation of the development process, and various learning resources we utilized along the way.
 
-This repository serves not only as a tool for our instructor to review our progress but is also open to the public. We hope our creations and shared knowledge will be helpful for other students and web development enthusiasts.
+## 🛠️ Installation Requirements
+
+To work with this repository, please install the following:
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Node.js](https://nodejs.org/)
+- [NetBeans](https://netbeans.apache.org/)
+- [Angular](https://angular.io/)
+- [React](https://react.dev/)
+- Compatible web browser
+
+## 🚀 Contents Overview
+
+- **Web Projects**: Our developed web applications, including a mini-project for an online supermarket that delivers a user-friendly shopping experience.
+- **Documentation**: Comprehensive records and reflections on our learning and development journey.
+- **Resources**: Additional materials for a deeper understanding of advanced web development concepts and techniques.
+
+## 👥 Team Members
+
+- **Yeshua Chiliquinga** - [yachiliquinga1@espe.edu.ec](mailto:yachiliquinga1@espe.edu.ec)
+- **Alejandro Cuadrado** - [jacuadrado1@espe.edu.ec](mailto:jacuadrado1@espe.edu.ec)
+- **Isaac Escobar** - [iaescobar3@espe.edu.ec](mailto:iaescobar3@espe.edu.ec)
+
+Our repository is open to the public for exploration. Beyond its use as a tool for instructor feedback, we hope that fellow students and web development enthusiasts will find our work helpful and inspiring.
 
 Feel free to explore, learn, and leave us your feedback!
+
+## 📦 Dependencies
+
+This project requires the following dependencies:
+
+- Node.js
+- React
+- Angular  
+
+## 📜 Version History
+
+- **1.0** - Initial release
+
+---
+
+This version is more structured and formatted for clarity and readability.
