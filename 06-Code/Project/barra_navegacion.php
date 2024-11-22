@@ -9,7 +9,7 @@
 <body>
     <nav class="navbar">
         <ul>
-            <li><a href="index.php" class="home-icon"><img src="../img/sss.png" alt="Inicio" width="84" height="88"></a </li>
+            <li><a href="index.php" class="home-icon"><img src="img/imagen.jpg" alt="Inicio" width="84" height="88"></a </li>
             <li><a href="profesor.php">Profesores</a></li>
             <li><a href="estudiantes.php">Estudiantes</a></li>
             <li><a href="padres.php">Padres</a></li>
