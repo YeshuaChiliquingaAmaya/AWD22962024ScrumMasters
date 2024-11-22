@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+/* Estilo para la barra de navegación */
+.navbar {
+    position: fixed; /* Fija la barra en la parte superior */
+    top: 0; /* La coloca en la parte superior de la ventana */
+    width: 99%; /* Se asegura de que ocupe todo el ancho */
+    z-index: 1000; /* Coloca la barra encima de otros elementos */
+    background-color: #333; /* Color de fondo */
+    padding: 10px; /* Espaciado interno */
+    display: flex; /* Alinea los elementos horizontalmente */
+    justify-content: space-between; /* Distribuye espacio entre los elementos */
+    align-items: center; /* Centra los elementos verticalmente */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+}
+
+/* Estilo para las listas dentro de la barra */
+.navbar ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alinea horizontalmente los elementos */
+}
+
+.navbar ul li {
+    margin: 0 15px; /* Espaciado entre los elementos */
+}
+
+/* Estilo para los enlaces */
+.navbar ul li a {
+    text-decoration: none; /* Sin subrayado */
+    color: white; /* Texto en blanco */
+    font-weight: bold; /* Negrita */
+}
+
+.navbar ul li a:hover {
+    color: #ff9900; /* Color de texto al pasar el cursor */
+}
+
+/* Estilo para el botón de cerrar sesión */
+.logout {
+    color: white; /* Texto en blanco */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold; /* Negrita */
+    margin-right: 10px;
+}
+
+.logout:hover {
+    color: #ff0000; /* Color del texto al pasar el cursor */
+}
+
+/* Estilo para el ícono de inicio */
+.home-icon img {
+    vertical-align: middle; /* Alineación vertical */
+}
+
+/* Espaciado del cuerpo para evitar que el contenido quede oculto detrás de la barra */
+body {
+    padding-top: 60px; /* Ajusta según la altura de la barra */
+}
+
