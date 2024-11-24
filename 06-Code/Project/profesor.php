@@ -57,7 +57,7 @@ This is decoration
                         </select>
                     </td>
                     <td><input type="number" name="calificacion[]" placeholder="Nota" min="0" max="20" step="0.1" required></td>
-                    <td><input type="text" name="comentarios[]" placeholder="Comentarios opcionales" required></td>
+                    <td><input type="text" name="comentarios[]" placeholder="Comentarios opcionales"></td>
                 </tr>
             </tbody>
         </table>
