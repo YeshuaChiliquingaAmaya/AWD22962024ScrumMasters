@@ -47,17 +47,17 @@ This is decoration
             </thead>
             <tbody>
                 <tr>
-                    <td><input type="text" name="nombre_estudiante[]" placeholder="Nombre completo"></td>
+                    <td><input type="text" name="nombre_estudiante[]" placeholder="Nombre completo" required  pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+"  title="Solo se permiten letras y espacios."></td>
                     <td>
-                        <select name="tipo_evaluacion[]">
+                        <select name="tipo_evaluacion[]" required>
                             <option value="Examen">Examen</option>
                             <option value="Tarea">Tarea</option>
                             <option value="Lección">Lección</option>
                             <option value="Proyecto">Proyecto</option>
                         </select>
                     </td>
-                    <td><input type="number" name="calificacion[]" placeholder="Nota" min="0" max="20" step="0.1"></td>
-                    <td><input type="text" name="comentarios[]" placeholder="Comentarios opcionales"></td>
+                    <td><input type="number" name="calificacion[]" placeholder="Nota" min="0" max="20" step="0.1" required></td>
+                    <td><input type="text" name="comentarios[]" placeholder="Comentarios opcionales" required></td>
                 </tr>
             </tbody>
         </table>

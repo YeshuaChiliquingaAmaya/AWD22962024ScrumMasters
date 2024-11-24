@@ -18,7 +18,7 @@
 
     <form method="post" action="">
         <label for="student_id">Ingrese el ID o nombre del estudiante:</label>
-        <input type="text" id="student_id" name="student_id" placeholder="Ej: 101 o Juan">
+        <input type="text" id="student_id" name="student_id" placeholder="Ej: 101 o Juan" required>
         <button type="submit">Generar Reporte</button>
     </form>
 
