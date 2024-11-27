@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+/* Estilo para el footer */
+.footer {
+    position: static; /* El footer estará en la parte inferior del contenido */
+    width: 100%; /* Se asegura de que ocupe todo el ancho */
+    background-color: #333; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-align: center; /* Centra el contenido del texto */
+    padding: 10px 0; /* Espaciado interno */
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Sombra en la parte superior */
+}
+
+/* Estilo para los enlaces dentro del footer */
+.footer ul {
+    list-style: none; /* Elimina los puntos de las listas */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alinea los elementos en fila */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Espaciado entre los elementos */
+}
+
+.footer ul li {
+    display: inline; /* Asegura que los enlaces estén en línea */
+}
+
+.footer ul li a {
+    text-decoration: none; /* Sin subrayado */
+    color: white; /* Color de texto */
+    font-weight: bold; /* Negrita */
+    transition: color 0.3s; /* Animación suave para cambios de color */
+}
+
+.footer ul li a:hover {
+    color: #ff9900; /* Color al pasar el cursor */
+}
+
