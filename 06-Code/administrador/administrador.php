@@ -69,7 +69,7 @@
             <form onsubmit="agregarUsuario(); return false;" style="margin: 20px;">
                 <div style="margin-bottom: 10px;">
                     <label for="nombre_usuario"><strong>Nombre del Usuario:</strong></label>
-                    <input type="text" id="nombre_usuario" placeholder="Nombre completo" required>
+                    <input type="text" id="nombre_usuario" placeholder="Nombre completo" required  pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+"  title="Solo se permiten letras y espacios.">
                 </div>
 
                 <div style="margin-bottom: 10px;">
