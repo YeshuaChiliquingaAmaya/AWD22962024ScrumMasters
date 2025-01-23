@@ -1,0 +1,4 @@
+php artisan key:generate 
+php artisan migrate
+composer update
+php artisan serve
