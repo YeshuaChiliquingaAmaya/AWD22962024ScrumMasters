@@ -1,0 +1,17 @@
+---------------- URIS -------------
+
+
+1. http://127.0.0.1:8000/login		 (principal)
+2. http://127.0.0.1:8000/ 		 (es el inicio)
+3. http://127.0.0.1:8000/curso/create  	 (crear curso/consumir cursos)
+4. http://127.0.0.1:8000/curso/1/edit  	 (editar curso)
+5. http://127.0.0.1:8000/profe/create  	 (crear profesor/consumir profesor)
+6. http://127.0.0.1:8000/profe/1   	 (ver un docente especifico)
+7. http://127.0.0.1:8000/profe/1/edit  	 (editar profesor)
+8. http://127.0.0.1:8000/alumno/create   (crear estudiante)
+9. http://127.0.0.1:8000/alumno   	 (ver estudiantes)
+10. http://127.0.0.1:8000/alumno/4   	 (ver un estudiante)
+11. http://127.0.0.1:8000/alumno/4/edit  (modificar estudiante "x")
+12. http://127.0.0.1:8000/NewPassword    (perfil/cambiar clave)
+13. http://127.0.0.1:8000/pago/create    (pago no implementado)
+14. http://127.0.0.1:8000/pago     	 (ver pagos)
