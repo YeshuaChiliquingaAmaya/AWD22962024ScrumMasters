@@ -463,8 +463,6 @@ app.post("/admin/parents/students", (req, res) => {
 });
 
 
-
-
 // Iniciar el servidor
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
